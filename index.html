@@ -7,7 +7,8 @@
     <title>Heal the code make it a better place</title>
 
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,7 +25,11 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section data-background="#ffffff">
+        <section data-background="#FF4F4F">
+          <div class="row">
+            <div class="column"><img style="margin-top:0em; height:70vh" class="plain" src="./img/michael.jpeg"></div>
+            <div class="column" style="color: white">
+              <br><br>
             <h3>Heal the code <br>make it a better place</h3>
             <p>
                 <small>POWER OF CODE REVIEW</small>
@@ -32,44 +37,41 @@
             <p>
                 <small>Zuzanna Pacholczyk</small>
             </p>
-            <br><br>
+          </div>
+        </div>
+        <div>
+           <br>
             <p>
-                <img style="margin-top:0em; height: 1em" class="plain" src="./img/craftmanship-community.svg">
-                <img style="margin-top:0em; height: 1em" class="plain" src="./img/capgemini-logo-2017.svg">
+                <img style="margin-top:0em; height: 1em; background:#FF4F4F" class="plain" src="./img/craftmanship-community.svg">
+                <img style="margin-top:0em; height: 1em; background:#FF4F4F" class="plain" src="./img/capgemini-logo-2017.svg">
             </p>
+          </div>
         </section>
         <section>
-            <section data-background="#f7f58f">
+            <section>
                 <h2>Thriller</h2>
             </section>
-            <section data-background="#fef8ec">
+            <section>
                 <img style="margin-top:0em" class="plain" src="./img/frustrating.jpg">
-                <small>https://image.slidesharecdn.com/webexpo-160923210924/95/how-to-successfully-grow-a-code-
-                    review-culture-6-638.jpg?cb=1476167539
-                </small>
             </section>
-            <section data-background="#fef8ec">
+            <section>
                 <img style="margin-top:0em" class="plain" src="./img/first.jpg">
-                <small>https://i.redd.it/uwx81sb64uk11.jpg</small>
             </section>
-            <section data-background="#fef8ec">
-                <img style="margin-top:0em; height: 80vh;" class="plain" src="./img/recently.jpeg">
-                <small>https://cdn-images-1.medium.com/max/1200/1*ekS113Iv0S6v5NZGRd_hoQ.jpeg</small>
+            <section>
+                <img style="margin-top:0em; height: 100vh;" class="plain" src="./img/recently.jpeg">
             </section>
-            <section data-background="#fef8ec">
+            <section>
                 <img style="margin-top:0em" class="plain" src="./img/peer.jpg">
-                <small>http://mindbowser.com/wp-content/uploads/2016/07/Code-Review-2.jpg</small>
             </section>
-            <section data-background="#fef8ec">
+            <section>
                 <img style="margin-top:0em" class="plain" src="./img/measurement.png">
-                <small>https://cdn-images-1.medium.com/max/1200/1*-nhSONLZxx0wcOsr20KULw.png</small>
             </section>
         </section>
         <section>
             <section data-background="#fef8ec">
                 <h2>Just good friends</h2>
             </section>
-            <section>
+            <section data-background="#fef8ec">
                 <h2>This is it</h2>
                 <q cite="https://en.wikipedia.org/wiki/Software_peer_review">
                     &ldquo;In software development, peer review is a type of software review
@@ -80,10 +82,6 @@
                     practice for detecting and correcting defects in software artifacts,
                     and preventing their leakage into field operations.&rdquo;
                 </q>
-            </section>
-            <section>
-                <h2>Somebody's watching me</h2>
-                <img style="margin-top:0em" class="plain" src="./img/comment.PNG">
             </section>
             <section data-background="#105397">
                 <h2>Code never felt so good</h2>
@@ -96,15 +94,19 @@
                     <li>Setting and sharing standards</li>
                 </ul>
             </section>
+            <section data-background="#fef8ec">
+                <h2>Somebody's watching me</h2>
+                <img style="margin-top:0em" class="plain" src="./img/comment.PNG">
+            </section>
         </section>
         <section>
             <section data-background="#fef8ec">
                 <h2>Black or white</h2>
             </section>
-            <section data-background="#000000">
+            <section>
                 <h2>Bad</h2>
             </section>
-            <section data-background="#000000">
+            <section>
                 <p><b>Problem:</b> asking judgmental questions
                     <br>
                 <q>Why did you...?</q>
@@ -114,7 +116,7 @@
                     Remove subject from the sentence <q>This variable should be renamed</q>
                 </p>
             </section>
-            <section data-background="#000000">
+            <section>
                 <p><b>Problem:</b> sharing opinion as fact
                     <br>
                     <q>This should be red/I would prefer having this bold</q>
@@ -124,7 +126,7 @@
                 </p>
             </section>
 
-            <section data-background="#000000">
+            <section>
                 <p><b>Problem:</b> asking for solving not your issue
                     <br>
                     <q>While you are at it, there is also...</q>
@@ -134,7 +136,7 @@
                 </p>
             </section>
 
-            <section data-background="#000000">
+            <!-- <section>
                 <p><b>Problem:</b> reviewer would do it differently
                     <br>
                     <q>Please change logic, use different collection type, split logic, write it from other point of view...</q>
@@ -142,8 +144,8 @@
                     <b>Solution:</b> <br>
                     <s>Is your solution better?</s> Is the reviewed solution readable, understandable and follows our standards?
                 </p>
-            </section>
-            <section data-background="#000000">
+            </section> -->
+            <section>
                 <p><b>Problem:</b> repeating same remark
                     <br>
                     <q>Please add javadoc, please add javadoc, please add javadoc...</q>
@@ -152,8 +154,8 @@
                     <q>Please add javadoc in places where it's missing</q>
                 </p>
             </section>
-            <section data-background="#000000">
-                <p><b>Problem:</b> unpolite
+            <section>
+                <p><b>Problem:</b> being unpolite
                     <br>
                     <q>stupid</q>
                     <br>emoticons:
@@ -163,11 +165,67 @@
                     Keep it real - don't use hyperbole.
                 </p>
             </section>
+
+            <section data-background="#fef8ec">
+                <h2>They <s>don't</s> care about us</h2>
+            </section>
+            <section  data-background="#fef8ec">
+                <p><b>Tip:</b> clear status
+                    <br><br>
+                    reply to all comments
+                    <br><br>
+                    <q>done/ok</q>
+                </p>
+            </section>
+            <!-- <section  data-background="#fef8ec">
+                <p><b>Tip:</b> automate
+                    <br><br>
+                    let computers do the static analysis
+                </p>
+            </section> -->
+            <section  data-background="#fef8ec">
+                <p><b>Tip:</b> keep the flow
+                    <br><br>
+                    start review immediatelly
+                </p>
+            </section>
+            <section  data-background="#fef8ec">
+                <p><b>Tip:</b> build dialog
+                    <br><br>
+                    ask questions, give recommendations
+                </p>
+            </section>
+            <section  data-background="#fef8ec">
+                <p><b>Tip:</b> appreciate good code
+                    <br><br>
+                    show that you care
+                </p>
+            </section>
+            <section  data-background="#fef8ec">
+                <p><b>Tip:</b> talk offline
+                    <br><br>
+                    <q>
+                      The kinds of problems that take hours and tons of comments
+                      can usually be resolved in a few minutes of productive talk.
+                      <br> — Tidy Java
+                    </q>
+                </p>
+            </section>
         </section>
+        <!-- <section>
+          <h2>You are not alone</h2>
+          <p>
+            <ul>Checklist
+              <li>everybody creates</li>
+              <li>standard</li>
+              <li>smooth start</li>
+            </ul>
+          </p>
+        </section> -->
         <section>
             <h2>The way you make me feel</h2>
         </section>
-        <section data-background="#c4ff93">
+        <section data-background="#105397">
             <q>Heal the code
                 <br>Make it a better place
                 <br>For you and for me
@@ -183,8 +241,18 @@
             <a href="https://github.com/thoughtbot/guides/tree/master/code-review">A guide for reviewing code and having your code reviewed</a>
             <a href="https://en.wikipedia.org/wiki/Software_peer_review">Software peer review</a>
             <a href="https://wiki.eclipse.org/OSEE/Software_Development_Process/Peer_Review_Checklist">OSEE/Software Development Process/Peer Review Checklist</a>
-
-            <small>https://www.flaticon.com/authors/twitter" title="Twitter"</small>
+        </section>
+        <section>
+          <h2>Credits</h2>
+          <small>https://www.flaticon.com/authors/twitter</small>
+          <small>https://www.skillshare.com/projects/Moonwalk/30883?studentRef=3414083</small>
+          <small>https://image.slidesharecdn.com/webexpo-160923210924/95/how-to-successfully-grow-a-code-
+              review-culture-6-638.jpg?cb=1476167539
+          </small>
+          <small>https://i.redd.it/uwx81sb64uk11.jpg</small>
+          <small>https://cdn-images-1.medium.com/max/1200/1*ekS113Iv0S6v5NZGRd_hoQ.jpeg</small>
+          <small>http://mindbowser.com/wp-content/uploads/2016/07/Code-Review-2.jpg</small>
+          <small>https://cdn-images-1.medium.com/max/1200/1*-nhSONLZxx0wcOsr20KULw.png</small>
         </section>
     </div>
 </div>
