@@ -9,3 +9,7 @@
 .column2 {
   flex: 80%;
 }
+
+.reveal {
+  color: lightgray;
+}
