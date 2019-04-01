@@ -5,4 +5,4 @@ Oddając swój code do review czujesz strach i dreszcze? A może code review jes
 
 Swoje zainteresowania technologiczne rozwijam jako starsza inżynier oprogramowania w Capgemini, gdzie pracuję w zespole zwinnym. Prężnie działam w firmowym Craftsmanship Community i chętnie dzielę się wiedzą w ramach szkoleń i warsztatów. Wolny czas spędzam ćwicząc jogę lub czytając książki. W ostatnim czasie zaczęłam swoją przygodę z dzierganiem na drutach.
 
-Video: https://zuzannapacholczyk.github.io/code-review-intro/#/
+Video: https://www.youtube.com/watch?v=sfLI0SINprk
